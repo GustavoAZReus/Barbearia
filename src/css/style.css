@@ -1,0 +1,381 @@
+body {
+    font-family: "Rajdhani", sans-serif;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(rgb(78, 78, 78), #fff);
+}
+
+header .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header .container img {
+    max-width: 250px;
+}
+
+nav {
+   max-width: 600px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+nav a {
+    background-color: rgb(173, 131, 131);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: rgb(197, 66, 66);
+    color:#000;
+    font-weight: bold;
+    box-shadow: 5px 3px 20px rgb(173, 131, 131);
+}
+
+main {
+    margin-top: 20px;
+}
+
+#primeira {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#primeira .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#primeira .div-visitante{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#primeira #nome-visitante {
+    font-size: 45px;
+    background-color: rgba(255, 255, 255, 0.674);
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#segunda .container {
+    padding: 20px;
+    text-align: center;
+}
+
+#segunda .titulo {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(182, 48, 48);
+}
+
+#segunda .paragrafo {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+#segunda span {
+    font-weight: bold;
+}
+
+#segunda .missao {
+    font-style: italic;
+    font-weight: unset;
+}
+
+#diferenciais {
+    background-image: url(../img/beneficios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+#diferenciais .container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+    max-width: 500px;
+    height: 250px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#diferenciais .title-diferenciais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#diferenciais .title-diferenciais p {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(182, 48, 48);
+    text-align: center;
+}
+
+#diferenciais .title-diferenciais img {
+    max-width: 55px;
+}
+
+#diferenciais ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#diferenciais ul li {
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+#diferenciais ul li:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+}
+
+#horario-funcionamento .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#horario-funcionamento table {
+    width: 315px;
+    margin:auto;
+    border: 1px solid #000;
+    font-size: 22px;
+}
+
+#horario-funcionamento table th {
+    max-width: 130px;
+    border: 1px solid #000;
+    background-color: #757575;
+}
+
+#horario-funcionamento table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#video {
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(../img/bkg-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* INICIO DA CSS DA PAG DE SERVIÇOS */
+
+.servicos  {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0 ;
+}
+
+.servicos .servico {
+    max-width: 250px;
+    border: 2px solid rgb(122, 39, 39) ;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.servico.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.servico .preco {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.servico:hover{
+    background-color: rgb(139, 37, 37);
+    border-color: beige;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.servico img:hover{
+    transition: 5s;
+    transform: scale(1.2) translate(5px);
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    margin-bottom: 50px;
+    padding:  0 16px;
+}
+
+.produtos h4 {
+    font-size: 30px;
+    text-align: center;
+}
+.produtos a {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    text-decoration: none;
+    color: rgb(255, 2, 2);
+    font-size: 18px;
+    border-radius: 8px;
+}
+.produtos a:hover {
+color: rgb(255, 0, 0);
+background-color: rgb(0, 0, 0);
+box-shadow: 5px 3px 20px red;
+font-weight: bold;
+}
+/* INICIO DA CSS DA PAG DE CONTATOS */
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    main form input {
+        width: 250px;
+        height: 25px;
+        border-radius: 15px;
+        border: 2px solid red;
+    }
+    
+    main form input:focus {
+    outline:none;
+    border: dashed color(srgb rgb(81, 255, 0) green blue);
+    }
+    
+    main form label {
+        margin-top: 15px;
+    }
+    
+    main form textarea {
+       width: 250px;
+        border-radius: 5px;
+        border: 2px solid rgb(80, 253, 0);
+    }
+    
+    main form textarea:focus {
+        outline: none;
+        border: dashed rgb(0, 225, 255);
+    }
+    
+    main form button {
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(0, 255, 0);
+        color: #ff0000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    main form button:hover {
+        color: #00ff73;
+        background-color: #ff0000;
+        box-shadow:5px 3px 20px rgb(30, 255, 0);
+    }
+
+
+
+
+
+footer {
+    background:linear-gradient(180deg, #fff, rgb(78, 78, 78));
+}
+
+footer .container{
+    margin: 0 100px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo {
+    max-width: 200px;
+}
+
+footer .midias {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .midias img {
+    width: 50px;
+}
+
+footer .midias a {
+    transition: 0.3s;
+}
+
+footer .midias a:hover {
+    transform: translateY(-15px);
+}
+
+@media(max-width:768px){
+   
+   .servicos{
+   flex-wrap: wrap ;
+    gap: 50px;
+}
+    footer .container{
+        margin: 0 30px;
+    }
+}
+        @media (max-width:426px){
+
+nav {  
+    width: 70%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+nav a {
+    text-align: center;
+}
+    #video iframe {
+        width: 100%;
+    }
+    
+    .servicos {
+        margin: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    footer .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

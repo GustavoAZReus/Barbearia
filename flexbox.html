@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+<style>
+        body {
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+}
+.container {
+    background-color: red;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.div {
+    width: 150px;
+}
+
+.div-1{
+    background-color: beige;
+    height: 150px;
+}
+
+.div-2{
+    background-color: aquamarine;
+    height: 300px;
+}
+.div-3{
+    background-color: blueviolet;
+    height: 600px;
+}
+
+.container-flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 4
+    0px;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>TITULO DO CONTAINER</h1>
+    </div>
+
+    <div class="container-flexbox">
+        <div class="div-1 div">1</div>
+        <div class="div-2 div">2</div>
+        <div class="div-3 div">3</div>
+    </div>
+</body>
+</html>
